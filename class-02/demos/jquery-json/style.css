@@ -1,0 +1,11 @@
+li {
+   background-color: #ccc;
+}
+
+img {
+  max-width: 200px;
+}
+
+li:first-child {
+  display:none;
+}

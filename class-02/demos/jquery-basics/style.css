@@ -1,0 +1,11 @@
+div {
+  background: #eee;
+  border: 1px solid black;
+  margin: 1em;
+  width: 300px;
+}
+
+.red {
+  background-color: lightcoral;
+}
+

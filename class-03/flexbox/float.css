@@ -1,0 +1,13 @@
+aside, section {
+  float: left;
+}
+
+main {
+  overflow: hidden;
+}
+
+footer, header, aside, section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

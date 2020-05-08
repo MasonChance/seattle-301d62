@@ -1,0 +1,8 @@
+main {
+  display: grid;
+  grid-template-columns: 150px 1fr 150px;
+}
+
+main :nth-child(2) {
+  order: 2;
+}

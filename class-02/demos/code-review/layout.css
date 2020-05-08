@@ -1,0 +1,79 @@
+body {
+  width: 480px;
+  margin: 0 auto;
+}
+
+div {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+div:nth-child(1) {
+  height: 75px;
+  line-height: 75px;
+
+}
+
+div:nth-child(2) {
+  height: 150px;
+  line-height: 150px;
+  /* if you know the height, this works easiest */
+}
+
+div:nth-child(3), div:nth-child(4) {
+  line-height: 125px;
+  height: 125px;
+}
+
+div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  width: 50%;
+}
+
+div:nth-child(9) {
+  height: 80px;
+  line-height: 80px;
+}
+
+
+@media (min-width: 960px) {
+  
+  body {
+    width: 960px;
+  }
+
+  div:nth-child(1) {
+  height: 100px;
+  line-height: 100px;
+
+  }
+
+  div:nth-child(2) {
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+  }
+
+  div:nth-child(3), div:nth-child(4) {
+    line-height: 200px;
+    height: 200px;
+    width: 380px;
+  }
+
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+    height: 250px;
+    width: 190px;
+  }
+
+  div:nth-child(9) {
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
+  }
+}
+

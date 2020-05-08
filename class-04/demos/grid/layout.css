@@ -1,0 +1,22 @@
+*{
+  outline: solid red 1px;
+  background-color: #cccccc50;
+}
+main {
+  margin: auto;
+  max-width: 1080px;
+}
+
+header, footer {
+  height: 200px;
+}
+
+aside {
+  height: 700px;
+  /* width: 200px; */
+}
+
+section {
+  height: 700px;
+  /* width: 680px; */
+}
